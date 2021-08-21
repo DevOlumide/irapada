@@ -1,0 +1,89 @@
+body{
+  line-height: 2.05rem !important;
+ }
+ 
+img{
+  width: 100% !important;
+  height: auto !important;
+}
+.App {
+  text-align: center;
+}
+
+/* custom styles */
+.big{
+  font-size: 1.602rem !important;
+}
+.font-weight-x-bold{
+  font-weight: 700 !important;
+}
+.footer{
+  
+}
+.heading {
+  font-weight: 600 !important;
+  letter-spacing: 0.3rem !important;
+}
+.info-box{
+  border:1px solid red !important;
+  background: rgba(255,0,0,0.1) !important;
+  color: white !important;
+  width: 85% !important;
+}
+.ir-brand{
+  display: block !important;
+  text-decoration: none !important;
+  font-family: "Playfair Display" !important;
+}
+.ir-label{
+  background: rgba(100,200,255,0.3) !important;
+  color: rgb(0,100,155) !important;
+  border-radius: 50px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.ir-large{
+  font-size: 2.441rem !important;
+}
+.ir-navbar{
+  width: 100% !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  background: rgba(255,255,255,0.5) !important;
+}
+.ir-navbar-burger-icon{
+}
+.ir-mt-6{
+  margin-top: 6rem !important;
+}
+.ir-small{
+  font-size: 0.702rem !important;
+}
+.ir-underline{
+  text-decoration: none !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  border-bottom: 2px solid black !important;
+}
+.list-style-type-none{
+  list-style-type: none !important;
+}
+.nowrap{
+  white-space: nowrap !important;
+  overflow-x: scroll;
+}
+.text-jost{
+  font-family: Jost !important;
+}
+.text-playfair{
+  font-family: "Playfair Display" !important;
+}
+.x-small{
+  font-size: 0.502rem !important;
+}
+
+@media(min-width: 760px){
+  .md-show{
+    display: inline !important;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Irapada cathedral server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build",
+    "install-client": "npm run install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "nodemon server.js"
+  },
+  "author": "DevOlumide",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {}
+}
