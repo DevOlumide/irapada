@@ -21,7 +21,7 @@ function Footer (){
     </div>
     <div className="col-12 col-md-4">
     <p className="">CONTACT US</p>
-     <p className="">+2349056681801 <br /> <a href="mailto:huj" className="text-light"> support@irapadacathedral.com</a></p>
+     <p className="">+2348023417225 <br /> <a href="mailto:huj" className="text-light"> support@irapadacathedral.com</a></p>
     </div>
     <div className="col-12 col-md-4">
     <a href="" className="btn btn-light">Register</a>

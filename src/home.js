@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useState} from "react";
+import {Accordion, AccordionSummary, AccordionDetails, Card} from "@material-ui/core";
+//import {ExpandMore} from "@material-ui/icons";
+
 
 
 import Navbar from './navbar';
@@ -6,6 +9,8 @@ import Footer from './footer';
 
 
 function Home(){
+ 
+  
   return(
     <React.Fragment>
     <Navbar />
@@ -45,12 +50,8 @@ function Home(){
     </b>
     </p>
     <p className="mt-5 text-jost nowrap">
-    <span className="heading">ORDER OF SERVICE</span>
+    <span className="heading">CHURCH SERVICES</span>
     <div className="row">
-    <br/>
-    <b className="">
-    CHURCH SERVICES
-    </b>
     <div className="col-4">
     <ul className="list-style-type-none">
     <li>
@@ -170,6 +171,7 @@ function Home(){
     </p>
     <b>
     <a href="" className="ir-underline text-jost text-dark" >I will be visiting</a>
+    
     </b>
     <div className="count-down">
     <div className=""></div>
@@ -180,6 +182,7 @@ function Home(){
    <small className="text-dark ir-underline text-jost">
    <b> Speakers</b>
    </small>
+   <Card>
     <div className="row mt-3 text-jost">
     <div className="col-12 col-md-3">
     <img src="/assets/images/shepherd_pics.jpg"/>
@@ -190,7 +193,7 @@ function Home(){
     </div>
     
     </div>
-    
+    </Card>
     <div className="text-jost mt-5">
     <span className="heading text-jost">ICIM JUVENILE</span>
     <p className="">
@@ -223,8 +226,34 @@ function Home(){
     
     <div className="text-jost my-5">
     <b className="heading">FREQUENTLY ASKED QUESTIONS</b>
-    <p className="">
+    <p className="mt-3">
+    <Accordion>
+    <AccordionSummary>
+    <b> Is spiritual counselling available? </b>
+    </AccordionSummary>
+    <AccordionDetails>
+    Yes! You have the chance of having a personal meeting with the spiritual head of the church from 9am to 7pm, every Tuesday, only.
+    </AccordionDetails>
+    </Accordion>
     
+    
+    <Accordion>
+    <AccordionSummary>
+    <b> Are revivals organised regularly? </b>
+    </AccordionSummary>
+    <AccordionDetails>
+    All activities in the Celestial Church of Christ are inspired by God and based on the spiritual needs of the church. In a typical year we have about 3-5 revivals, all are directed by God and based on the spiritual needs of the church and not human selfish plans.
+    </AccordionDetails>
+    </Accordion>
+    
+    <Accordion>
+    <AccordionSummary>
+    <b> What if I am far away? </b>
+    </AccordionSummary>
+    <AccordionDetails>
+    If you are far away and cannot be present physically, you can worship with us live, via this website or at irapadacathedral_1 on Instagram
+    </AccordionDetails>
+    </Accordion>
     </p>
     </div>
     <div className="text-jost text-left">
